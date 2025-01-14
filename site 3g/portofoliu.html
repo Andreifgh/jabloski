@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofoliu - Climat</title>
+    <style>
+        /* Resetare stiluri implicite */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        /* Secțiunea Portofoliu */
+        .portfolio {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        .portfolio h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .portfolio .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .portfolio .gallery .portfolio-item {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .portfolio .gallery .portfolio-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .portfolio .gallery .portfolio-item img:hover {
+            transform: scale(1.05);
+        }
+
+        .portfolio .gallery .portfolio-item h3 {
+            margin-top: 15px;
+            font-size: 22px;
+        }
+
+        .portfolio .gallery .portfolio-item p {
+            font-size: 16px;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- jABLOSKI HEADER -->  
+    <header>
+        <a href="index.html">Acasă</a>
+        <a href="desprenoi.html">Despre Noi</a>
+        <a href="servicii.html">Servicii</a>
+        <a href="#portfolio">Portofoliu</a> 
+        <a href="contact.html">Contact</a>
+    </header>
+
+    <!-- Secțiunea Portofoliu -->
+    <section id="portfolio" class="portfolio">
+        <h2>Portofoliul nostru</h2>
+        
+        <div class="gallery">
+            <!-- Portofoliu item 1 -->
+            <div class="portfolio-item">
+                <img src="proiect1.jpg" alt="Proiect 1">
+                <h3>Proiect 1</h3>
+                <p>Descrierea proiectului 1. Oferă o scurtă descriere a muncii realizate.</p>
+            </div>
+
+            <!-- Portofoliu item 2 -->
+            <div class="portfolio-item">
+                <img src="proiect2.jpg" alt="Proiect 2">
+                <h3>Proiect 2</h3>
+                <p>Descrierea proiectului 2. Oferă o scurtă descriere a muncii realizate.</p>
+            </div>
+
+            <!-- Portofoliu item 3 -->
+            <div class="portfolio-item">
+                <img src="proiect3.jpg" alt="Proiect 3">
+                <h3>Proiect 3</h3>
+                <p>Descrierea proiectului 3. Oferă o scurtă descriere a muncii realizate.</p>
+            </div>
+
+            <!-- Portofoliu item 4 -->
+            <div class="portfolio-item">
+                <img src="proiect4.jpg" alt="Proiect 4">
+                <h3>Proiect 4</h3>
+                <p>Descrierea proiectului 4. Oferă o scurtă descriere a muncii realizate.</p>
+            </div>
+
+            <!-- Portofoliu item 5 -->
+            <div class="portfolio-item">
+                <img src="proiect5.jpg" alt="Proiect 5">
+                <h3>Proiect 5</h3>
+                <p>Descrierea proiectului 5. Oferă o scurtă descriere a muncii realizate.</p>
+            </div>
+
+            <!-- Portofoliu item 6 -->
+            <div class="portfolio-item">
+                <img src="proiect6.jpg" alt="Proiect 6">
+                <h3>Proiect 6</h3>
+                <p>Descrierea proiectului 6. Oferă o scurtă descriere a muncii realizate.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 jabloskiSRL. Toate drepturile rezervate.</p>
+        <p>Contact: <a href="mailto:contact@jabloski.ro">contact@jabloski.ro</a></p>
+    </footer>
+
+</body>
+</html>
